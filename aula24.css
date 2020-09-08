@@ -30,3 +30,13 @@ li {
 .casos {
     font-size: 1.3em;
 }
+
+.graficos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+canvas {
+    background-color: snow;
+    max-width: 700px;
+}

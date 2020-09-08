@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="aula24.css">
+    <script src="node_modules\chart.js\dist\Chart.js"></script>
     <title>Casos confirmados de COVID-19</title>
 </head>
 <body>
     <h1>Casos confirmados de COVID-19 em <span class="cidade"></span>, <span class="estado"></span>.</h1>
 
     <h2>Total de casos: <span class="casos"></span></h2>
-
+    <div class="graficos">
+        <canvas id="myChart2" width="800" height="400"></canvas>
+        <canvas id="myChart" width="800" height="400"></canvas>
+    </div>
     <ul class="dados"></ul>
     <script src="aula24.js"></script>
+    
+
 </body>
 </html>
+
